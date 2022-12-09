@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91231BC328480C33002A8284 /* StatisticViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91231BC228480C33002A8284 /* StatisticViewModel.swift */; };
+		91231BC7284A2ED0002A8284 /* WaterForDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91231BC6284A2ED0002A8284 /* WaterForDay.swift */; };
+		91231BC9284A6533002A8284 /* RowDetailDrink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91231BC8284A6532002A8284 /* RowDetailDrink.swift */; };
+		91231BCB284BE60B002A8284 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91231BCA284BE60B002A8284 /* StatisticView.swift */; };
+		9150846E2836A76100E26B23 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9150846D2836A76100E26B23 /* Database.swift */; };
+		91C49CC1284D18B400EBA63B /* StatisticsField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C49CC0284D18B400EBA63B /* StatisticsField.swift */; };
+		91E6C7D1283803DA0008B0B4 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E6C7D0283803DA0008B0B4 /* Drink.swift */; };
+		91E6C7D328380E870008B0B4 /* BarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E6C7D228380E870008B0B4 /* BarGraph.swift */; };
+		91E6C7D528383C3F0008B0B4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E6C7D428383C3F0008B0B4 /* ProfileView.swift */; };
+		91E6C7D7283842EF0008B0B4 /* AddHeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E6C7D6283842EF0008B0B4 /* AddHeightView.swift */; };
+		91E6C7D92838467B0008B0B4 /* AddWeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E6C7D82838467B0008B0B4 /* AddWeightView.swift */; };
+		91EF88912830278B00FBC3C7 /* WaterBalanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EF88902830278B00FBC3C7 /* WaterBalanceApp.swift */; };
+		91EF88932830278B00FBC3C7 /* DefaultDrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EF88922830278B00FBC3C7 /* DefaultDrinkView.swift */; };
+		91EF88952830279000FBC3C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91EF88942830279000FBC3C7 /* Assets.xcassets */; };
+		91EF88982830279000FBC3C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91EF88972830279000FBC3C7 /* Preview Assets.xcassets */; };
+		91EF889F28302CDB00FBC3C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91EF889E28302CDB00FBC3C7 /* GoogleService-Info.plist */; };
+		91EF88A22830360F00FBC3C7 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 91EF88A12830360F00FBC3C7 /* FirebaseAnalytics */; };
+		91EF88A42830360F00FBC3C7 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 91EF88A32830360F00FBC3C7 /* FirebaseFirestore */; };
+		91EF88A62830360F00FBC3C7 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 91EF88A52830360F00FBC3C7 /* FirebaseStorage */; };
+		91F00D9728423CAB00CF10D1 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F00D9628423CAB00CF10D1 /* HistoryView.swift */; };
+		91F00D9928423D1C00CF10D1 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F00D9828423D1C00CF10D1 /* HistoryViewModel.swift */; };
+		91F00D9B2842403100CF10D1 /* RowDrinksField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F00D9A2842403100CF10D1 /* RowDrinksField.swift */; };
+		91F00D9D28424FCE00CF10D1 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F00D9C28424FCE00CF10D1 /* Person.swift */; };
+		91F00DA128425D8C00CF10D1 /* PersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F00DA028425D8C00CF10D1 /* PersonViewModel.swift */; };
+		91F00DA328427DB500CF10D1 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F00DA228427DB500CF10D1 /* LocationManager.swift */; };
+		91F00DA528429AA800CF10D1 /* DrinkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F00DA428429AA800CF10D1 /* DrinkDetailView.swift */; };
+		91F00DA728429AEE00CF10D1 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F00DA628429AEE00CF10D1 /* MapView.swift */; };
+		91F00DAB2842AA5B00CF10D1 /* DrinkDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F00DAA2842AA5B00CF10D1 /* DrinkDetailViewModel.swift */; };
+		91F00DAF2842DFC600CF10D1 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F00DAE2842DFC600CF10D1 /* GraphView.swift */; };
+		91F2EA88283114FB00144893 /* RowDefaultDrinksFieid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F2EA87283114FB00144893 /* RowDefaultDrinksFieid.swift */; };
+		91F2EA8A2831151C00144893 /* DefaultDrink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F2EA892831151C00144893 /* DefaultDrink.swift */; };
+		91F2EA8C2831193800144893 /* DefaultDrinksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F2EA8B2831193800144893 /* DefaultDrinksViewModel.swift */; };
+		91F2EA8E28311B2C00144893 /* AmountWaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F2EA8D28311B2C00144893 /* AmountWaterView.swift */; };
+		91F2EA9028311B8300144893 /* AmountWaterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F2EA8F28311B8300144893 /* AmountWaterViewModel.swift */; };
+		91F2EA9228311F3100144893 /* BottomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F2EA9128311F3100144893 /* BottomTabBar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		91231BC228480C33002A8284 /* StatisticViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticViewModel.swift; sourceTree = "<group>"; };
+		91231BC6284A2ED0002A8284 /* WaterForDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterForDay.swift; sourceTree = "<group>"; };
+		91231BC8284A6532002A8284 /* RowDetailDrink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowDetailDrink.swift; sourceTree = "<group>"; };
+		91231BCA284BE60B002A8284 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
+		9150846D2836A76100E26B23 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		91C49CC0284D18B400EBA63B /* StatisticsField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsField.swift; sourceTree = "<group>"; };
+		91E6C7D0283803DA0008B0B4 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		91E6C7D228380E870008B0B4 /* BarGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarGraph.swift; sourceTree = "<group>"; };
+		91E6C7D428383C3F0008B0B4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		91E6C7D6283842EF0008B0B4 /* AddHeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHeightView.swift; sourceTree = "<group>"; };
+		91E6C7D82838467B0008B0B4 /* AddWeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeightView.swift; sourceTree = "<group>"; };
+		91EF888D2830278B00FBC3C7 /* WaterBalance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterBalance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91EF88902830278B00FBC3C7 /* WaterBalanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterBalanceApp.swift; sourceTree = "<group>"; };
+		91EF88922830278B00FBC3C7 /* DefaultDrinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultDrinkView.swift; sourceTree = "<group>"; };
+		91EF88942830279000FBC3C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91EF88972830279000FBC3C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91EF889E28302CDB00FBC3C7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		91F00D9628423CAB00CF10D1 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		91F00D9828423D1C00CF10D1 /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		91F00D9A2842403100CF10D1 /* RowDrinksField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowDrinksField.swift; sourceTree = "<group>"; };
+		91F00D9C28424FCE00CF10D1 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		91F00DA028425D8C00CF10D1 /* PersonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
+		91F00DA228427DB500CF10D1 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		91F00DA428429AA800CF10D1 /* DrinkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetailView.swift; sourceTree = "<group>"; };
+		91F00DA628429AEE00CF10D1 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		91F00DAA2842AA5B00CF10D1 /* DrinkDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetailViewModel.swift; sourceTree = "<group>"; };
+		91F00DAE2842DFC600CF10D1 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		91F2EA87283114FB00144893 /* RowDefaultDrinksFieid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowDefaultDrinksFieid.swift; sourceTree = "<group>"; };
+		91F2EA892831151C00144893 /* DefaultDrink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultDrink.swift; sourceTree = "<group>"; };
+		91F2EA8B2831193800144893 /* DefaultDrinksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultDrinksViewModel.swift; sourceTree = "<group>"; };
+		91F2EA8D28311B2C00144893 /* AmountWaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountWaterView.swift; sourceTree = "<group>"; };
+		91F2EA8F28311B8300144893 /* AmountWaterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountWaterViewModel.swift; sourceTree = "<group>"; };
+		91F2EA9128311F3100144893 /* BottomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTabBar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91EF888A2830278B00FBC3C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91EF88A22830360F00FBC3C7 /* FirebaseAnalytics in Frameworks */,
+				91EF88A42830360F00FBC3C7 /* FirebaseFirestore in Frameworks */,
+				91EF88A62830360F00FBC3C7 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9150846C2836A73100E26B23 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9150846D2836A76100E26B23 /* Database.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		91EF88842830278B00FBC3C7 = {
+			isa = PBXGroup;
+			children = (
+				91EF888F2830278B00FBC3C7 /* WaterBalance */,
+				91EF888E2830278B00FBC3C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91EF888E2830278B00FBC3C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91EF888D2830278B00FBC3C7 /* WaterBalance.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91EF888F2830278B00FBC3C7 /* WaterBalance */ = {
+			isa = PBXGroup;
+			children = (
+				9150846C2836A73100E26B23 /* Services */,
+				91F2EA832831130F00144893 /* ViewModel */,
+				91F2EA852831132B00144893 /* View */,
+				91EF889E28302CDB00FBC3C7 /* GoogleService-Info.plist */,
+				91F2EA842831132200144893 /* Model */,
+				91EF88902830278B00FBC3C7 /* WaterBalanceApp.swift */,
+				91F00DA228427DB500CF10D1 /* LocationManager.swift */,
+				91EF88942830279000FBC3C7 /* Assets.xcassets */,
+				91EF88962830279000FBC3C7 /* Preview Content */,
+			);
+			path = WaterBalance;
+			sourceTree = "<group>";
+		};
+		91EF88962830279000FBC3C7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				91EF88972830279000FBC3C7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91F2EA832831130F00144893 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				91F2EA8B2831193800144893 /* DefaultDrinksViewModel.swift */,
+				91F2EA8F28311B8300144893 /* AmountWaterViewModel.swift */,
+				91F00D9828423D1C00CF10D1 /* HistoryViewModel.swift */,
+				91F00DA028425D8C00CF10D1 /* PersonViewModel.swift */,
+				91F00DAA2842AA5B00CF10D1 /* DrinkDetailViewModel.swift */,
+				91231BC228480C33002A8284 /* StatisticViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		91F2EA842831132200144893 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				91F2EA892831151C00144893 /* DefaultDrink.swift */,
+				91E6C7D0283803DA0008B0B4 /* Drink.swift */,
+				91F00D9C28424FCE00CF10D1 /* Person.swift */,
+				91231BC6284A2ED0002A8284 /* WaterForDay.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		91F2EA852831132B00144893 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				91F2EA9128311F3100144893 /* BottomTabBar.swift */,
+				91EF88922830278B00FBC3C7 /* DefaultDrinkView.swift */,
+				91F2EA862831138000144893 /* Components */,
+				91F2EA8D28311B2C00144893 /* AmountWaterView.swift */,
+				91231BCA284BE60B002A8284 /* StatisticView.swift */,
+				91F00DAE2842DFC600CF10D1 /* GraphView.swift */,
+				91E6C7D228380E870008B0B4 /* BarGraph.swift */,
+				91E6C7D428383C3F0008B0B4 /* ProfileView.swift */,
+				91E6C7D6283842EF0008B0B4 /* AddHeightView.swift */,
+				91E6C7D82838467B0008B0B4 /* AddWeightView.swift */,
+				91F00D9628423CAB00CF10D1 /* HistoryView.swift */,
+				91F00DA428429AA800CF10D1 /* DrinkDetailView.swift */,
+				91F00DA628429AEE00CF10D1 /* MapView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		91F2EA862831138000144893 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				91F2EA87283114FB00144893 /* RowDefaultDrinksFieid.swift */,
+				91F00D9A2842403100CF10D1 /* RowDrinksField.swift */,
+				91231BC8284A6532002A8284 /* RowDetailDrink.swift */,
+				91C49CC0284D18B400EBA63B /* StatisticsField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91EF888C2830278B00FBC3C7 /* WaterBalance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91EF889B2830279000FBC3C7 /* Build configuration list for PBXNativeTarget "WaterBalance" */;
+			buildPhases = (
+				91EF88892830278B00FBC3C7 /* Sources */,
+				91EF888A2830278B00FBC3C7 /* Frameworks */,
+				91EF888B2830278B00FBC3C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterBalance;
+			packageProductDependencies = (
+				91EF88A12830360F00FBC3C7 /* FirebaseAnalytics */,
+				91EF88A32830360F00FBC3C7 /* FirebaseFirestore */,
+				91EF88A52830360F00FBC3C7 /* FirebaseStorage */,
+			);
+			productName = WaterBalance;
+			productReference = 91EF888D2830278B00FBC3C7 /* WaterBalance.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91EF88852830278B00FBC3C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					91EF888C2830278B00FBC3C7 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 91EF88882830278B00FBC3C7 /* Build configuration list for PBXProject "WaterBalance" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91EF88842830278B00FBC3C7;
+			packageReferences = (
+				91EF88A02830360F00FBC3C7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 91EF888E2830278B00FBC3C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91EF888C2830278B00FBC3C7 /* WaterBalance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91EF888B2830278B00FBC3C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91EF88982830279000FBC3C7 /* Preview Assets.xcassets in Resources */,
+				91EF88952830279000FBC3C7 /* Assets.xcassets in Resources */,
+				91EF889F28302CDB00FBC3C7 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91EF88892830278B00FBC3C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F2EA8E28311B2C00144893 /* AmountWaterView.swift in Sources */,
+				91F2EA9028311B8300144893 /* AmountWaterViewModel.swift in Sources */,
+				91EF88932830278B00FBC3C7 /* DefaultDrinkView.swift in Sources */,
+				91231BC328480C33002A8284 /* StatisticViewModel.swift in Sources */,
+				91C49CC1284D18B400EBA63B /* StatisticsField.swift in Sources */,
+				91F00DA728429AEE00CF10D1 /* MapView.swift in Sources */,
+				91F00D9B2842403100CF10D1 /* RowDrinksField.swift in Sources */,
+				91F00DA528429AA800CF10D1 /* DrinkDetailView.swift in Sources */,
+				91F2EA8C2831193800144893 /* DefaultDrinksViewModel.swift in Sources */,
+				91E6C7D528383C3F0008B0B4 /* ProfileView.swift in Sources */,
+				91F00D9D28424FCE00CF10D1 /* Person.swift in Sources */,
+				91EF88912830278B00FBC3C7 /* WaterBalanceApp.swift in Sources */,
+				91F2EA8A2831151C00144893 /* DefaultDrink.swift in Sources */,
+				91231BC9284A6533002A8284 /* RowDetailDrink.swift in Sources */,
+				91F00D9728423CAB00CF10D1 /* HistoryView.swift in Sources */,
+				91F00DA128425D8C00CF10D1 /* PersonViewModel.swift in Sources */,
+				91231BC7284A2ED0002A8284 /* WaterForDay.swift in Sources */,
+				91F00DAF2842DFC600CF10D1 /* GraphView.swift in Sources */,
+				9150846E2836A76100E26B23 /* Database.swift in Sources */,
+				91F00DA328427DB500CF10D1 /* LocationManager.swift in Sources */,
+				91F2EA9228311F3100144893 /* BottomTabBar.swift in Sources */,
+				91E6C7D328380E870008B0B4 /* BarGraph.swift in Sources */,
+				91231BCB284BE60B002A8284 /* StatisticView.swift in Sources */,
+				91E6C7D92838467B0008B0B4 /* AddWeightView.swift in Sources */,
+				91F00DAB2842AA5B00CF10D1 /* DrinkDetailViewModel.swift in Sources */,
+				91E6C7D7283842EF0008B0B4 /* AddHeightView.swift in Sources */,
+				91E6C7D1283803DA0008B0B4 /* Drink.swift in Sources */,
+				91F2EA88283114FB00144893 /* RowDefaultDrinksFieid.swift in Sources */,
+				91F00D9928423D1C00CF10D1 /* HistoryViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		91EF88992830279000FBC3C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91EF889A2830279000FBC3C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91EF889C2830279000FBC3C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WaterBalance/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "we need  location to update the map";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marozau.WaterBalance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91EF889D2830279000FBC3C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WaterBalance/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "we need  location to update the map";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marozau.WaterBalance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91EF88882830278B00FBC3C7 /* Build configuration list for PBXProject "WaterBalance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91EF88992830279000FBC3C7 /* Debug */,
+				91EF889A2830279000FBC3C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91EF889B2830279000FBC3C7 /* Build configuration list for PBXNativeTarget "WaterBalance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91EF889C2830279000FBC3C7 /* Debug */,
+				91EF889D2830279000FBC3C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		91EF88A02830360F00FBC3C7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		91EF88A12830360F00FBC3C7 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 91EF88A02830360F00FBC3C7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		91EF88A32830360F00FBC3C7 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 91EF88A02830360F00FBC3C7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		91EF88A52830360F00FBC3C7 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 91EF88A02830360F00FBC3C7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 91EF88852830278B00FBC3C7 /* Project object */;
+}
